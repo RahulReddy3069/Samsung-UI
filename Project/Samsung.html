@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung Inspired UI - Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Samsung</div>
+        <ul class="nav-links">
+            <li><a href="Samsung.html" class="active">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <div class="menu-toggle">☰</div>
+    </nav>
+
+    <section class="hero">
+        <h1>Innovate Your Future</h1>
+        <p>Explore Samsung's latest tech in smartphones, wearables, and more.</p>
+        <a href="products.html" class="cta-button">Shop Now</a>
+    </section>
+
+    <section class="featured">
+        <h2>Featured Innovations</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <img src="https://via.placeholder.com/300x200" alt="Galaxy Z Fold 6">
+                <h3>Galaxy Z Fold 6</h3>
+                <p>Foldable design with top-tier performance.</p>
+                <p class="price">₹1,79999</p>
+                <div class="card-actions">
+                    <button class="add-to-cart" data-product="Galaxy Z Fold 6" data-price="1,79999">Add to Cart</button>
+                    <button class="buy-now" data-product="Galaxy Z Fold 6" data-price="1,79999">Buy Now</button>
+                </div>
+            </div>
+            <div class="feature-card">
+                <img src="https://via.placeholder.com/300x200" alt="Galaxy Watch Ultra">
+                <h3>Galaxy Watch Ultra</h3>
+                <p>Fitness tracking with a premium look.</p>
+                <p class="price">₹65,999</p>
+                <div class="card-actions">
+                    <button class="add-to-cart" data-product="Galaxy Watch Ultra" data-price="65,999">Add to Cart</button>
+                    <button class="buy-now" data-product="Galaxy Watch Ultra" data-price="65,999">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="notification" id="notification">
+        <p id="notificationMessage"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

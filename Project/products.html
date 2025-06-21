@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Samsung UI Clone</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">Samsung</div>
+        <ul class="nav-links">
+            <li><a href="Samsung.html">Home</a></li>
+            <li><a href="products.html" class="active">Products</a></li>
+            <li><a href="#">Support</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+        <div class="menu-toggle">☰</div>
+    </nav>
+
+    <section class="products">
+        <h2>Our Product Lineup</h2>
+        <div class="product-grid">
+            <div class="product-card">
+                <img src="Z fold 6.jpg" alt="Smartphone" />
+                <h3>Galaxy Z Fold 6</h3>
+                <p>Foldable technology with a seamless multitasking experience.</p>
+                <p class="price">₹1,79999</p>
+                <div class="card-actions">
+                    <button class="add-to-cart" data-product="Galaxy Z Fold 6" data-price="1,79999">Add to Cart</button>
+                    <button class="buy-now" data-product="Galaxy Z Fold 6" data-price="1,79999">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="S 25 Ultra.jpg" alt="Smartphone" />
+                <h3>Galaxy S25 Ultra</h3>
+                <p>Immersive display for work and entertainment.</p>
+                <p class="price">₹1,39999</p>
+                <div class="card-actions">
+                    <button class="add-to-cart" data-product="Galaxy S25 Ultra" data-price="1,39999">Add to Cart</button>
+                    <button class="buy-now" data-product="Galaxy S25 Ultra" data-price="1,39999">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="Watch Ultra.jpg" alt="Smartwatch" />
+                <h3>Galaxy Watch Ultra</h3>
+                <p>Advanced health tracking and sleek design.</p>
+                <p class="price">₹65,999</p>
+                <div class="card-actions">
+                    <button class="add-to-cart" data-product="Galaxy Watch Ultra" data-price="65,999">Add to Cart</button>
+                    <button class="buy-now" data-product="Galaxy Watch Ultra" data-price="65,999">Buy Now</button>
+                </div>
+            </div>
+
+            <div class="product-card">
+                <img src="Buds 3 Pro.jpg" alt="Earphones" />
+                <h3>Galaxy Buds 3 Pro</h3>
+                <p>Immersive sound with active noise cancellation.</p>
+                <p class="price">₹20,999</p>
+                <div class="card-actions">
+                    <button class="add-to-cart" data-product="Galaxy Buds 3 Pro" data-price="20,999">Add to Cart</button>
+                    <button class="buy-now" data-product="Galaxy Buds 3 Pro" data-price="20,999">Buy Now</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <div class="notification" id="notification">
+        <p id="notificationMessage"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
